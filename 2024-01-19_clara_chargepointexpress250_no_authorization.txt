@@ -1,0 +1,1129 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2024.01.19 17:35:48 =~=~=~=~=~=~=~=~=~=~=~=
+This is Clara version 4=0.31.B
+logging is 621
+[10] [CONNMGR] 165 0 0 0 0 0 0 --> 0
+[10] [CONNMGR] ConnectionLevel changed from 0 to 5.
+[1000] In state Off. TcpRetries 0
+[1010] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[1070] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[1550] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[1550] [PEVSLAC] from 0 entering 2
+[1580] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[1580] [PEVSLAC] from 2 entering 4
+[2000] In state Off. TcpRetries 0
+[2000] [CONNMGR] 165 149 0 0 0 0 0 --> 10
+[2570] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[2570] [PEVSLAC] from 4 entering 0
+[2600] [PEVSLAC] from 0 entering 2
+[2630] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[2630] [PEVSLAC] from 2 entering 4
+[2990] [CONNMGR] 165 116 0 0 0 0 0 --> 10
+[3000] In state Off. TcpRetries 0
+[3620] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[3620] [PEVSLAC] from 4 entering 0
+[3650] [PEVSLAC] from 0 entering 2
+[3680] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[3680] [PEVSLAC] from 2 entering 4
+[3980] [CONNMGR] 165 83 0 0 0 0 0 --> 10
+[4000] In state Off. TcpRetries 0
+[4670] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[4670] [PEVSLAC] from 4 entering 0
+[4700] [PEVSLAC] from 0 entering 2
+[4730] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[4730] [PEVSLAC] from 2 entering 4
+[4970] [CONNMGR] 165 50 0 0 0 0 0 --> 10
+[5000] In state Off. TcpRetries 0
+[5720] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[5720] [PEVSLAC] from 4 entering 0
+[5750] [PEVSLAC] from 0 entering 2
+[5780] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[5780] [PEVSLAC] from 2 entering 4
+[5960] [CONNMGR] 165 17 0 0 0 0 0 --> 10
+[6000] In state Off. TcpRetries 0
+[6470] [CONNMGR] ConnectionLevel changed from 10 to 5.
+[6470] [PEVSLAC] from 4 entering 0
+[6500] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[6950] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[6980] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[6980] [PEVSLAC] from 0 entering 2
+[7000] In state Off. TcpRetries 0
+[7010] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[7010] [PEVSLAC] from 2 entering 4
+[7940] [CONNMGR] 165 132 0 0 0 0 0 --> 10
+[8000] In state Off. TcpRetries 0
+[8000] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[8000] [PEVSLAC] from 4 entering 0
+[8030] [PEVSLAC] from 0 entering 2
+[8060] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[8060] [PEVSLAC] from 2 entering 4
+[8930] [CONNMGR] 165 99 0 0 0 0 0 --> 10
+[9000] In state Off. TcpRetries 0
+[9050] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[9050] [PEVSLAC] from 4 entering 0
+[9080] [PEVSLAC] from 0 entering 2
+[9110] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[9110] [PEVSLAC] from 2 entering 4
+[9920] [CONNMGR] 165 66 0 0 0 0 0 --> 10
+[10000] In state Off. TcpRetries 0
+[10100] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[10100] [PEVSLAC] from 4 entering 0
+[10130] [PEVSLAC] from 0 entering 2
+[10160] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[10160] [PEVSLAC] from 2 entering 4
+[10910] [CONNMGR] 165 33 0 0 0 0 0 --> 10
+[11000] In state Off. TcpRetries 0
+[11150] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[11150] [PEVSLAC] from 4 entering 0
+[11180] [PEVSLAC] from 0 entering 2
+[11210] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[11210] [PEVSLAC] from 2 entering 4
+[11900] [CONNMGR] ConnectionLevel changed from 10 to 5.
+[11900] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[11900] [PEVSLAC] from 4 entering 0
+[11930] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[12000] In state Off. TcpRetries 0
+[12410] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[12410] [PEVSLAC] from 0 entering 2
+[12440] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[12440] [PEVSLAC] from 2 entering 4
+[12890] [CONNMGR] 165 148 0 0 0 0 0 --> 10
+[13000] In state Off. TcpRetries 0
+[13430] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[13430] [PEVSLAC] from 4 entering 0
+[13460] [PEVSLAC] from 0 entering 2
+[13490] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[13490] [PEVSLAC] from 2 entering 4
+[13880] [CONNMGR] 165 115 0 0 0 0 0 --> 10
+[14000] In state Off. TcpRetries 0
+[14480] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[14480] [PEVSLAC] from 4 entering 0
+[14510] [PEVSLAC] from 0 entering 2
+[14540] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[14540] [PEVSLAC] from 2 entering 4
+[14870] [CONNMGR] 165 82 0 0 0 0 0 --> 10
+[15000] In state Off. TcpRetries 0
+[15530] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[15530] [PEVSLAC] from 4 entering 0
+[15560] [PEVSLAC] from 0 entering 2
+[15590] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[15590] [PEVSLAC] from 2 entering 4
+[15860] [CONNMGR] 165 49 0 0 0 0 0 --> 10
+[16000] In state Off. TcpRetries 0
+[16580] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[16580] [PEVSLAC] from 4 entering 0
+[16610] [PEVSLAC] from 0 entering 2
+[16640] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[16640] [PEVSLAC] from 2 entering 4
+[16850] [CONNMGR] 165 16 0 0 0 0 0 --> 10
+[17000] In state Off. TcpRetries 0
+[17330] [CONNMGR] ConnectionLevel changed from 10 to 5.
+[17330] [PEVSLAC] from 4 entering 0
+[17360] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[17840] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[17840] [CONNMGR] 165 164 0 0 0 0 0 --> 10
+[17840] [PEVSLAC] from 0 entering 2
+[17870] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[17870] [PEVSLAC] from 2 entering 4
+[18000] In state Off. TcpRetries 0
+[18830] [CONNMGR] 165 131 0 0 0 0 0 --> 10
+[18860] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[18860] [PEVSLAC] from 4 entering 0
+[18890] [PEVSLAC] from 0 entering 2
+[18920] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[18920] [PEVSLAC] from 2 entering 4
+[19000] In state Off. TcpRetries 0
+[19820] [CONNMGR] 165 98 0 0 0 0 0 --> 10
+[19910] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[19910] [PEVSLAC] from 4 entering 0
+[19940] [PEVSLAC] from 0 entering 2
+[19970] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[19970] [PEVSLAC] from 2 entering 4
+[20000] In state Off. TcpRetries 0
+[20810] [CONNMGR] 165 65 0 0 0 0 0 --> 10
+[20960] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[20960] [PEVSLAC] from 4 entering 0
+[20990] [PEVSLAC] from 0 entering 2
+[21000] In state Off. TcpRetries 0
+[21020] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[21020] [PEVSLAC] from 2 entering 4
+[21800] [CONNMGR] 165 32 0 0 0 0 0 --> 10
+[22000] In state Off. TcpRetries 0
+[22010] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[22010] [PEVSLAC] from 4 entering 0
+[22040] [PEVSLAC] from 0 entering 2
+[22070] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[22070] [PEVSLAC] from 2 entering 4
+[22760] [CONNMGR] ConnectionLevel changed from 10 to 5.
+[22760] [PEVSLAC] from 4 entering 0
+[22790] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[22790] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[23000] In state Off. TcpRetries 0
+[23270] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[23270] [PEVSLAC] from 0 entering 2
+[23300] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[23300] [PEVSLAC] from 2 entering 4
+[23780] [CONNMGR] 165 147 0 0 0 0 0 --> 10
+[24000] In state Off. TcpRetries 0
+[24290] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[24290] [PEVSLAC] from 4 entering 0
+[24320] [PEVSLAC] from 0 entering 2
+[24350] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[24350] [PEVSLAC] from 2 entering 4
+[24770] [CONNMGR] 165 114 0 0 0 0 0 --> 10
+[25000] In state Off. TcpRetries 0
+[25340] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[25340] [PEVSLAC] from 4 entering 0
+[25370] [PEVSLAC] from 0 entering 2
+[25400] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[25400] [PEVSLAC] from 2 entering 4
+[25760] [CONNMGR] 165 81 0 0 0 0 0 --> 10
+[26000] In state Off. TcpRetries 0
+[26390] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[26390] [PEVSLAC] from 4 entering 0
+[26420] [PEVSLAC] from 0 entering 2
+[26450] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[26450] [PEVSLAC] from 2 entering 4
+[26750] [CONNMGR] 165 48 0 0 0 0 0 --> 10
+[27000] In state Off. TcpRetries 0
+[27440] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[27440] [PEVSLAC] from 4 entering 0
+[27470] [PEVSLAC] from 0 entering 2
+[27500] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[27500] [PEVSLAC] from 2 entering 4
+[27740] [CONNMGR] 165 15 0 0 0 0 0 --> 10
+[28000] In state Off. TcpRetries 0
+[28190] [CONNMGR] ConnectionLevel changed from 10 to 5.
+[28190] [PEVSLAC] from 4 entering 0
+[28220] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[28700] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[28700] [PEVSLAC] from 0 entering 2
+[28730] [CONNMGR] 165 163 0 0 0 0 0 --> 10
+[28730] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[28730] [PEVSLAC] from 2 entering 4
+[29000] In state Off. TcpRetries 0
+[29720] [CONNMGR] 165 130 0 0 0 0 0 --> 10
+[29720] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[29720] [PEVSLAC] from 4 entering 0
+[29750] [PEVSLAC] from 0 entering 2
+[29780] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[29780] [PEVSLAC] from 2 entering 4
+[30000] In state Off. TcpRetries 0
+[30710] [CONNMGR] 165 97 0 0 0 0 0 --> 10
+[30770] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[30770] [PEVSLAC] from 4 entering 0
+[30800] [PEVSLAC] from 0 entering 2
+[30830] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[30830] [PEVSLAC] from 2 entering 4
+[31000] In state Off. TcpRetries 0
+[31700] [CONNMGR] 165 64 0 0 0 0 0 --> 10
+[31820] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[31820] [PEVSLAC] from 4 entering 0
+[31850] [PEVSLAC] from 0 entering 2
+[31880] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[31880] [PEVSLAC] from 2 entering 4
+[32000] In state Off. TcpRetries 0
+[32690] [CONNMGR] 165 31 0 0 0 0 0 --> 10
+[32870] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[32870] [PEVSLAC] from 4 entering 0
+[32900] [PEVSLAC] from 0 entering 2
+[32930] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[32930] [PEVSLAC] from 2 entering 4
+[33000] In state Off. TcpRetries 0
+[33620] [CONNMGR] ConnectionLevel changed from 10 to 5.
+[33620] [PEVSLAC] from 4 entering 0
+[33680] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[34000] In state Off. TcpRetries 0
+[34670] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[35000] In state Off. TcpRetries 0
+[35660] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[36000] In state Off. TcpRetries 0
+[36650] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[37000] In state Off. TcpRetries 0
+[37640] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[38000] In state Off. TcpRetries 0
+[38630] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[39000] In state Off. TcpRetries 0
+[39620] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[40000] In state Off. TcpRetries 0
+[40610] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[41000] In state Off. TcpRetries 0
+[41600] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[42000] In state Off. TcpRetries 0
+[42590] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[43000] In state Off. TcpRetries 0
+[43580] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[44000] In state Off. TcpRetries 0
+[44570] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[45000] In state Off. TcpRetries 0
+[45560] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[46000] In state Off. TcpRetries 0
+[46550] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[47000] In state Off. TcpRetries 0
+[47540] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[48000] In state Off. TcpRetries 0
+[48530] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[49000] In state Off. TcpRetries 0
+[49520] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[50000] In state Off. TcpRetries 0
+[50510] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[51000] In state Off. TcpRetries 0
+[51500] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[52000] In state Off. TcpRetries 0
+[52490] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[53000] In state Off. TcpRetries 0
+[53480] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[54000] In state Off. TcpRetries 0
+[54470] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[55000] In state Off. TcpRetries 0
+[55460] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[56000] In state Off. TcpRetries 0
+[56450] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[57000] In state Off. TcpRetries 0
+[57440] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[58000] In state Off. TcpRetries 0
+[58430] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[59000] In state Off. TcpRetries 0
+[59420] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[60000] In state Off. TcpRetries 0
+[60410] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[61000] In state Off. TcpRetries 0
+[61400] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[62000] In state Off. TcpRetries 0
+[62390] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[63000] In state Off. TcpRetries 0
+[63380] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[64000] In state Off. TcpRetries 0
+[64370] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[65000] In state Off. TcpRetries 0
+[65360] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[66000] In state Off. TcpRetries 0
+[66350] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[67000] In state Off. TcpRetries 0
+[67340] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[68000] In state Off. TcpRetries 0
+[68330] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[69000] In state Off. TcpRetries 0
+[69320] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[70000] In state Off. TcpRetries 0
+[70310] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[71000] In state Off. TcpRetries 0
+[71300] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[72000] In state Off. TcpRetries 0
+[72290] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[73000] In state Off. TcpRetries 0
+[73280] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[74000] In state Off. TcpRetries 0
+[74270] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[75000] In state Off. TcpRetries 0
+[75260] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[76000] In state Off. TcpRetries 0
+[76250] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[77000] In state Off. TcpRetries 0
+[77240] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[78000] In state Off. TcpRetries 0
+[78230] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[79000] In state Off. TcpRetries 0
+[79220] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[80000] In state Off. TcpRetries 0
+[80210] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[81000] In state Off. TcpRetries 0
+[81200] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[82000] In state Off. TcpRetries 0
+[82190] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[83000] In state Off. TcpRetries 0
+[83180] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[84000] In state Off. TcpRetries 0
+[84170] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[85000] In state Off. TcpRetries 0
+[85160] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[86000] In state Off. TcpRetries 0
+[86150] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[87000] In state Off. TcpRetries 0
+[87140] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[88000] In state Off. TcpRetries 0
+[88130] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[89000] In state Off. TcpRetries 0
+[89120] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[90000] In state Off. TcpRetries 0
+[90110] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[91000] In state Off. TcpRetries 0
+[91100] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[92000] In state Off. TcpRetries 0
+[92090] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[93000] In state Off. TcpRetries 0
+[93080] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[94000] In state Off. TcpRetries 0
+[94070] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[95000] In state Off. TcpRetries 0
+[95060] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[96000] In state Off. TcpRetries 0
+[96050] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[97000] In state Off. TcpRetries 0
+[97040] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[98000] In state Off. TcpRetries 0
+[98030] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[99000] In state Off. TcpRetries 0
+[99020] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[100000] In state Off. TcpRetries 0
+[100010] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[101000] In state Off. TcpRetries 0
+[101000] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[101990] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[102000] In state Off. TcpRetries 0
+[102980] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[103000] In state Off. TcpRetries 0
+[103970] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[104000] In state Off. TcpRetries 0
+[104960] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[105000] In state Off. TcpRetries 0
+[105950] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[106000] In state Off. TcpRetries 0
+[106940] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[107000] In state Off. TcpRetries 0
+[107930] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[108000] In state Off. TcpRetries 0
+[108920] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[109000] In state Off. TcpRetries 0
+[109910] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[110000] In state Off. TcpRetries 0
+[110900] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[111000] In state Off. TcpRetries 0
+[111890] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[112000] In state Off. TcpRetries 0
+[112880] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[113000] In state Off. TcpRetries 0
+[113870] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[114000] In state Off. TcpRetries 0
+[114860] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[115000] In state Off. TcpRetries 0
+[115850] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[116000] In state Off. TcpRetries 0
+[116840] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[117000] In state Off. TcpRetries 0
+[117830] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[118000] In state Off. TcpRetries 0
+[118820] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[119000] In state Off. TcpRetries 0
+[119810] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[120000] In state Off. TcpRetries 0
+[120800] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[121000] In state Off. TcpRetries 0
+[121790] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[122000] In state Off. TcpRetries 0
+[122780] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[123000] In state Off. TcpRetries 0
+[123770] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[124000] In state Off. TcpRetries 0
+[124760] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[125000] In state Off. TcpRetries 0
+[125750] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[125900] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[125900] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[125900] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[125900] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[126000] In state Off. TcpRetries 0
+[126200] [CONNMGR] ConnectionLevel changed from 5 to 20.
+[126200] [SDP] Checkpoint200: Starting SDP.
+[126230] [SDP] initiating SDP request
+[126710] [SDP] initiating SDP request
+[126740] [CONNMGR] 165 146 311 0 0 0 0 --> 20
+[127000] In state Off. TcpRetries 0
+[127190] [SDP] initiating SDP request
+[127670] [SDP] initiating SDP request
+[127730] [CONNMGR] 165 113 278 0 0 0 0 --> 20
+[128000] In state Off. TcpRetries 0
+[128150] [SDP] initiating SDP request
+[128630] [SDP] initiating SDP request
+[128720] [CONNMGR] 165 80 245 0 0 0 0 --> 20
+[129000] In state Off. TcpRetries 0
+[129110] [SDP] initiating SDP request
+[129590] [SDP] initiating SDP request
+[129710] [CONNMGR] 165 47 212 0 0 0 0 --> 20
+[130000] In state Off. TcpRetries 0
+[130070] [SDP] initiating SDP request
+[130550] [SDP] initiating SDP request
+[130700] [CONNMGR] 165 14 179 0 0 0 0 --> 20
+[131000] In state Off. TcpRetries 0
+[131030] [SDP] initiating SDP request
+[131510] [SDP] initiating SDP request
+[131690] [CONNMGR] 165 0 146 0 0 0 0 --> 20
+[131990] [SDP] initiating SDP request
+[132000] In state Off. TcpRetries 0
+[132470] [SDP] initiating SDP request
+[132680] [CONNMGR] 165 0 113 0 0 0 0 --> 20
+[132950] [SDP] initiating SDP request
+[133000] In state Off. TcpRetries 0
+[133430] [SDP] initiating SDP request
+[133670] [CONNMGR] 165 0 80 0 0 0 0 --> 20
+[133910] [SDP] initiating SDP request
+[134000] In state Off. TcpRetries 0
+[134390] [SDP] initiating SDP request
+[134660] [CONNMGR] 165 0 47 0 0 0 0 --> 20
+[134870] [SDP] initiating SDP request
+[135000] In state Off. TcpRetries 0
+[135350] [SDP] initiating SDP request
+[135650] [CONNMGR] 165 0 14 0 0 0 0 --> 20
+[135830] [SDP] initiating SDP request
+[136000] In state Off. TcpRetries 0
+[136070] [CONNMGR] ConnectionLevel changed from 20 to 5.
+[136100] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[136580] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[136580] [PEVSLAC] from 0 entering 2
+[136610] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[136610] [PEVSLAC] from 2 entering 4
+[136640] [PEVSLAC] Checkpoint102: received SLAC_PARAM.CNF
+[136640] [PEVSLAC] from 4 entering 5
+[136640] [CONNMGR] 165 162 0 0 0 0 0 --> 10
+[136640] [PEVSLAC] from 5 entering 6
+[136700] [PEVSLAC] transmitting START_ATTEN_CHAR.IND...
+[136730] [PEVSLAC] transmitting START_ATTEN_CHAR.IND...
+[136760] [PEVSLAC] transmitting START_ATTEN_CHAR.IND...
+[136790] [PEVSLAC] from 6 entering 7
+[136820] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[136850] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[136880] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[136910] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[136940] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[136970] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[137000] In state Off. TcpRetries 0
+[137000] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[137030] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[137060] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[137090] [PEVSLAC] transmitting MNBC_SOUND.IND...
+[137090] [PEVSLAC] from 7 entering 8
+[137120] [PEVSLAC] received ATTEN_CHAR.IND
+[137120] [PEVSLAC] transmitting ATTEN_CHAR.RSP...
+[137120] [PEVSLAC] from 9 entering 10
+[137630] [CONNMGR] 165 129 0 0 0 0 0 --> 10
+[138000] In state Off. TcpRetries 0
+[138050] [PEVSLAC] Checkpoint150: transmitting SLAC_MATCH.REQ...
+[138050] [PEVSLAC] from 10 entering 11
+[138080] [PEVSLAC] received SLAC_MATCH.CNF
+[138080] [PEVSLAC] From SlacMatchCnf, got network membership key (NMK) and NID.
+[138080] [PEVSLAC] Checkpoint170: transmitting CM_SET_KEY.REQ
+[138080] [PEVSLAC] from 11 entering 12
+[138080] [PEVSLAC] Checking whether the pairing worked, by GET_KEY.REQ...
+[138080] [PEVSLAC] from 12 entering 13
+[138110] [PEVSLAC] received SET_KEY.CNF
+[138110] [PEVSLAC] SetKeyCnf says 1, this is formally 'rejected', but indeed ok.
+[138110] [CONNMGR] ConnectionLevel changed from 10 to 15.
+[138110] [SDP] Checkpoint200: Starting SDP.
+[138140] [SDP] initiating SDP request
+[138380] [PEVSLAC] It was sufficient time to get the answers from the modems.
+[138380] [PEVSLAC] No EVSE seen (yet). Still waiting for it.
+[138380] [PEVSLAC] from 13 entering 12
+[138620] [CONNMGR] 165 96 0 642 0 0 0 --> 15
+[138830] [SDP] initiating SDP request
+[139000] In state Off. TcpRetries 0
+[139070] [SDP] initiating SDP request
+[139310] [SDP] initiating SDP request
+[139550] [SDP] initiating SDP request
+[139610] [SDP] Checkpoint203: Received SDP response
+[139610] [SDP] Now we know the chargers IP.
+[139610] [CONNMGR] ConnectionLevel changed from 15 to 50.
+[139610] [CONNMGR] 165 63 0 609 164 0 0 --> 50
+[139610] [PEVSLAC] from 12 entering 0
+[139610] [TCP] Checkpoint301: connecting
+[139640] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[139640] [PEVSLAC] received GET_SW.CNF
+For MAC 00:01:87:08:37:5a software version MAC-QCA7000-1.1.3.1531-00-20150204-CS 
+[139640] [TCP] sending first ACK
+[139640] [TCP] connected.
+[139640] [CONNMGR] ConnectionLevel changed from 50 to 80.
+[139640] Checkpoint400: Sending the initial SupportedApplicationProtocolReq
+[139640] TCP will transmit: 01fe8001000000228000dbab9371d3234b71d1b981899189d191818991d26b9b3a232b30020000040040
+[139640] In state NegotiateProtocol. TcpRetries 0
+[139670] [TCP] sending ACK
+[139670] Data received:  01fe80010000000480400040
+[139670] In state WaitForSupportedApplicationProtocolResponse
+[139670] supportedAppProtocolRes
+ResponseCode 0, SchemaID_isUsed 1, SchemaID 1
+[139670] Checkpoint403: Schema negotiated. And Checkpoint500: Will send SessionSetupReq
+[139670] TCP will transmit: 01fe800100000015809a02000000000000000011d01bfbb6fbbebff800
+[139670] In state SessionSetup. TcpRetries 0
+[139700] [CONNMGR] ConnectionLevel changed from 80 to 100.
+[139820] [TCP] sending ACK
+[139820] Data received:  01fe80010000000d809a011edf2a3011e020040080
+[139820] In state WaitForSessionSetupResponse
+[139820] Checkpoint506: The Evse decided for SessionId 7b7ca8c0
+[139820] Will send ServiceDiscoveryReq
+[139820] TCP will transmit: 01fe800100000009809a011edf2a301198
+[139820] In state ServiceDiscovery. TcpRetries 0
+[139850] [TCP] sending ACK
+[139850] Data received:  01fe80010000000f809a011edf2a3011a00120024100c4
+[139850] In state WaitForServiceDiscoveryResponse
+[139850] Will send ServicePaymentSelectionReq
+[139850] TCP will transmit: 01fe80010000000c809a011edf2a3011b2001280
+[139850] In state PaymentSelection. TcpRetries 0
+[139880] [TCP] sending ACK
+[139880] Data received:  01fe80010000000a809a011edf2a3011c000
+[139880] In state WaitForServicePaymentSelectionResponse
+[139880] Checkpoint530: Will send ContractAuthenticationReq
+[139880] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[139880] In state ContractAuthentication. TcpRetries 0
+[139910] [TCP] sending ACK
+[139910] Data received:  01fe80010000000b809a011edf2a3010c00200
+[140150] [TCP] sending ACK
+[140150] Data received:  01fe80010000000b809a011edf2a3010c00200
+[140600] [CONNMGR] 165 30 0 576 131 149 306 --> 100
+[140780] In state WaitForContractAuthenticationResponse
+[140780] Not (yet) finished. Will again send ContractAuthenticationReq
+[140780] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[140810] [TCP] sending ACK
+[140810] Data received:  01fe80010000000b809a011edf2a3010c00200
+[140880] In state ContractAuthentication. TcpRetries 0
+[141260] [TCP] sending ACK
+[141260] Data received:  01fe80010000000b809a011edf2a3010c00200
+[141590] [CONNMGR] 165 0 0 543 98 153 303 --> 100
+[141680] In state WaitForContractAuthenticationResponse
+[141680] Not (yet) finished. Will again send ContractAuthenticationReq
+[141680] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[141710] [TCP] sending ACK
+[141710] Data received:  01fe80010000000b809a011edf2a3010c00200
+[141880] In state ContractAuthentication. TcpRetries 0
+[141950] [TCP] sending ACK
+[141950] Data received:  01fe80010000000b809a011edf2a3010c00200
+[142580] [CONNMGR] 165 0 0 510 65 143 300 --> 100
+[142580] In state WaitForContractAuthenticationResponse
+[142580] Not (yet) finished. Will again send ContractAuthenticationReq
+[142580] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[142610] [TCP] sending ACK
+[142610] Data received:  01fe80010000000b809a011edf2a3010c00200
+[142880] In state ContractAuthentication. TcpRetries 0
+[143300] [TCP] sending ACK
+[143300] Data received:  01fe80010000000b809a011edf2a3010c00200
+[143480] In state WaitForContractAuthenticationResponse
+[143480] Not (yet) finished. Will again send ContractAuthenticationReq
+[143480] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[143510] [TCP] sending ACK
+[143510] Data received:  01fe80010000000b809a011edf2a3010c00200
+[143570] [CONNMGR] 165 0 0 477 32 162 327 --> 100
+[143750] [TCP] sending ACK
+[143750] Data received:  01fe80010000000b809a011edf2a3010c00200
+[143880] In state ContractAuthentication. TcpRetries 0
+[144380] In state WaitForContractAuthenticationResponse
+[144380] Not (yet) finished. Will again send ContractAuthenticationReq
+[144380] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[144410] [TCP] sending ACK
+[144410] Data received:  01fe80010000000b809a011edf2a3010c00200
+[144560] [CONNMGR] 165 0 0 444 0 159 324 --> 100
+[144880] In state ContractAuthentication. TcpRetries 0
+[145280] In state WaitForContractAuthenticationResponse
+[145280] Not (yet) finished. Will again send ContractAuthenticationReq
+[145280] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[145310] [TCP] sending ACK
+[145310] Data received:  01fe80010000000b809a011edf2a3010c00200
+[145550] [CONNMGR] 165 0 0 411 0 156 321 --> 100
+[145700] [TCP] sending ACK
+[145700] Data received:  01fe80010000000b809a011edf2a3010c00200
+[145880] In state ContractAuthentication. TcpRetries 0
+[146180] In state WaitForContractAuthenticationResponse
+[146180] Not (yet) finished. Will again send ContractAuthenticationReq
+[146180] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[146210] [TCP] sending ACK
+[146210] Data received:  01fe80010000000b809a011edf2a3010c00200
+[146540] [CONNMGR] 165 0 0 378 0 153 318 --> 100
+[146880] In state ContractAuthentication. TcpRetries 0
+[147080] In state WaitForContractAuthenticationResponse
+[147080] Not (yet) finished. Will again send ContractAuthenticationReq
+[147080] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[147110] [TCP] sending ACK
+[147110] Data received:  01fe80010000000b809a011edf2a3010c00200
+[147530] [CONNMGR] 165 0 0 345 0 150 315 --> 100
+[147680] [TCP] sending ACK
+[147680] Data received:  01fe80010000000b809a011edf2a3010c00200
+[147880] In state ContractAuthentication. TcpRetries 0
+[147980] In state WaitForContractAuthenticationResponse
+[147980] Not (yet) finished. Will again send ContractAuthenticationReq
+[147980] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[148010] [TCP] sending ACK
+[148010] Data received:  01fe80010000000b809a011edf2a3010c00200
+[148520] [CONNMGR] 165 0 0 312 0 147 312 --> 100
+[148880] In state ContractAuthentication. TcpRetries 0
+[148880] In state WaitForContractAuthenticationResponse
+[148880] Not (yet) finished. Will again send ContractAuthenticationReq
+[148880] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[148910] [TCP] sending ACK
+[148910] Data received:  01fe80010000000b809a011edf2a3010c00200
+[149510] [CONNMGR] 165 0 0 279 0 144 309 --> 100
+[149600] [TCP] sending ACK
+[149600] Data received:  01fe80010000000b809a011edf2a3010c00200
+[149780] In state WaitForContractAuthenticationResponse
+[149780] Not (yet) finished. Will again send ContractAuthenticationReq
+[149780] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[149810] [TCP] sending ACK
+[149810] Data received:  01fe80010000000b809a011edf2a3010c00200
+[149880] In state ContractAuthentication. TcpRetries 0
+[150500] [CONNMGR] 165 0 0 246 0 141 306 --> 100
+[150680] In state WaitForContractAuthenticationResponse
+[150680] Not (yet) finished. Will again send ContractAuthenticationReq
+[150680] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[150710] [TCP] sending ACK
+[150710] Data received:  01fe80010000000b809a011edf2a3010c00200
+[150880] In state ContractAuthentication. TcpRetries 0
+[151490] [TCP] sending ACK
+[151490] Data received:  01fe80010000000b809a011edf2a3010c00200
+[151490] [CONNMGR] 165 0 0 213 0 164 303 --> 100
+[151580] In state WaitForContractAuthenticationResponse
+[151580] Not (yet) finished. Will again send ContractAuthenticationReq
+[151580] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[151610] [TCP] sending ACK
+[151610] Data received:  01fe80010000000b809a011edf2a3010c00200
+[151880] In state ContractAuthentication. TcpRetries 0
+[152480] [CONNMGR] 165 0 0 180 0 135 300 --> 100
+[152480] In state WaitForContractAuthenticationResponse
+[152480] Not (yet) finished. Will again send ContractAuthenticationReq
+[152480] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[152510] [TCP] sending ACK
+[152510] Data received:  01fe80010000000b809a011edf2a3010c00200
+[152880] In state ContractAuthentication. TcpRetries 0
+[153380] In state WaitForContractAuthenticationResponse
+[153380] Not (yet) finished. Will again send ContractAuthenticationReq
+[153380] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[153410] [TCP] sending ACK
+[153410] Data received:  01fe80010000000b809a011edf2a3010c00200
+[153470] [CONNMGR] 165 0 0 147 0 162 327 --> 100
+[153880] In state ContractAuthentication. TcpRetries 0
+[154280] In state WaitForContractAuthenticationResponse
+[154280] Not (yet) finished. Will again send ContractAuthenticationReq
+[154280] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[154310] [TCP] sending ACK
+[154310] Data received:  01fe80010000000b809a011edf2a3010c00200
+[154460] [CONNMGR] 165 0 0 114 0 159 324 --> 100
+[154880] In state ContractAuthentication. TcpRetries 0
+[155180] In state WaitForContractAuthenticationResponse
+[155180] Not (yet) finished. Will again send ContractAuthenticationReq
+[155180] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[155210] [TCP] sending ACK
+[155210] Data received:  01fe80010000000b809a011edf2a3010c00200
+[155450] [CONNMGR] 165 0 0 81 0 156 321 --> 100
+[155880] In state ContractAuthentication. TcpRetries 0
+[156080] In state WaitForContractAuthenticationResponse
+[156080] Not (yet) finished. Will again send ContractAuthenticationReq
+[156080] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[156110] [TCP] sending ACK
+[156110] Data received:  01fe80010000000b809a011edf2a3010c00200
+[156440] [CONNMGR] 165 0 0 48 0 153 318 --> 100
+[156880] In state ContractAuthentication. TcpRetries 0
+[156980] In state WaitForContractAuthenticationResponse
+[156980] Not (yet) finished. Will again send ContractAuthenticationReq
+[156980] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[157010] [TCP] sending ACK
+[157010] Data received:  01fe80010000000b809a011edf2a3010c00200
+[157430] [CONNMGR] 165 0 0 15 0 150 315 --> 100
+[157880] In state ContractAuthentication. TcpRetries 0
+[157880] In state WaitForContractAuthenticationResponse
+[157880] Not (yet) finished. Will again send ContractAuthenticationReq
+[157880] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[157910] [TCP] sending ACK
+[157910] Data received:  01fe80010000000b809a011edf2a3010c00200
+[158420] [CONNMGR] 165 0 0 0 0 147 312 --> 100
+[158780] In state WaitForContractAuthenticationResponse
+[158780] Not (yet) finished. Will again send ContractAuthenticationReq
+[158780] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[158810] [TCP] sending ACK
+[158810] Data received:  01fe80010000000b809a011edf2a3010c00200
+[158880] In state ContractAuthentication. TcpRetries 0
+[159410] [CONNMGR] 165 0 0 0 0 144 309 --> 100
+[159680] In state WaitForContractAuthenticationResponse
+[159680] Not (yet) finished. Will again send ContractAuthenticationReq
+[159680] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[159710] [TCP] sending ACK
+[159710] Data received:  01fe80010000000b809a011edf2a3010c00200
+[159880] In state ContractAuthentication. TcpRetries 0
+[160400] [CONNMGR] 165 0 0 0 0 141 306 --> 100
+[160580] In state WaitForContractAuthenticationResponse
+[160580] Not (yet) finished. Will again send ContractAuthenticationReq
+[160580] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[160610] [TCP] sending ACK
+[160610] Data received:  01fe80010000000b809a011edf2a3010c00200
+[160880] In state ContractAuthentication. TcpRetries 0
+[161390] [CONNMGR] 165 0 0 0 0 138 303 --> 100
+[161480] In state WaitForContractAuthenticationResponse
+[161480] Not (yet) finished. Will again send ContractAuthenticationReq
+[161480] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[161510] [TCP] sending ACK
+[161510] Data received:  01fe80010000000b809a011edf2a3010c00200
+[161880] In state ContractAuthentication. TcpRetries 0
+[162380] [CONNMGR] 165 0 0 0 0 135 300 --> 100
+[162380] In state WaitForContractAuthenticationResponse
+[162380] Not (yet) finished. Will again send ContractAuthenticationReq
+[162380] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[162410] [TCP] sending ACK
+[162410] Data received:  01fe80010000000b809a011edf2a3010c00200
+[162880] In state ContractAuthentication. TcpRetries 0
+[163280] In state WaitForContractAuthenticationResponse
+[163280] Not (yet) finished. Will again send ContractAuthenticationReq
+[163280] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[163310] [TCP] sending ACK
+[163310] Data received:  01fe80010000000b809a011edf2a3010c00200
+[163370] [CONNMGR] 165 0 0 0 0 162 327 --> 100
+[163880] In state ContractAuthentication. TcpRetries 0
+[164180] In state WaitForContractAuthenticationResponse
+[164180] Not (yet) finished. Will again send ContractAuthenticationReq
+[164180] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[164210] [TCP] sending ACK
+[164210] Data received:  01fe80010000000b809a011edf2a3010c00200
+[164360] [CONNMGR] 165 0 0 0 0 159 324 --> 100
+[164880] In state ContractAuthentication. TcpRetries 0
+[165080] In state WaitForContractAuthenticationResponse
+[165080] Not (yet) finished. Will again send ContractAuthenticationReq
+[165080] TCP will transmit: 01fe800100000009809a011edf2a3010b8
+[165200] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[165320] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[165350] [CONNMGR] 165 0 0 0 0 126 321 --> 100
+[165440] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[165560] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[165680] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[165800] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[165880] In state ContractAuthentication. TcpRetries 6
+[165920] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[166040] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[166160] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[166280] [TCP] Last packet wasn't ACKed for 100 ms, retransmitting
+[166340] [CONNMGR] 165 0 0 0 0 93 288 --> 100
+[166400] [TCP] Giving up the retry
+[166430] [TCP] Giving up the retry
+[166460] [TCP] Giving up the retry
+[166490] [TCP] Giving up the retry
+[166520] [TCP] Giving up the retry
+[166550] [TCP] Giving up the retry
+[166580] [TCP] Giving up the retry
+[166610] [TCP] Giving up the retry
+[166640] [TCP] Giving up the retry
+[166670] [TCP] Giving up the retry
+[166700] [TCP] Giving up the retry
+[166730] [TCP] Giving up the retry
+[166760] [TCP] Giving up the retry
+[166790] [TCP] Giving up the retry
+[166820] [TCP] Giving up the retry
+[166850] [TCP] Giving up the retry
+[166880] In state ContractAuthentication. TcpRetries 10
+[166880] [TCP] Giving up the retry
+[166910] [TCP] Giving up the retry
+[166940] [TCP] Giving up the retry
+[166970] [TCP] Giving up the retry
+[167000] [TCP] Giving up the retry
+[167030] [TCP] Giving up the retry
+[167060] [TCP] Giving up the retry
+[167090] [TCP] Giving up the retry
+[167090] In state Timeout. TcpRetries 10
+[167120] [TCP] Giving up the retry
+[167120] Safe-shutdown-sequence: setting state B
+[167120] In state WaitForChargerShutdown. TcpRetries 10
+[167150] [TCP] Giving up the retry
+[167180] [TCP] Giving up the retry
+[167210] [TCP] Giving up the retry
+[167240] [TCP] Giving up the retry
+[167270] [TCP] Giving up the retry
+[167300] [TCP] Giving up the retry
+[167330] [CONNMGR] 165 0 0 0 0 60 255 --> 100
+[167330] [TCP] Giving up the retry
+[167360] [TCP] Giving up the retry
+[167390] [TCP] Giving up the retry
+[167420] [TCP] Giving up the retry
+[167450] [TCP] Giving up the retry
+[167480] [TCP] Giving up the retry
+[167510] [TCP] Giving up the retry
+[167540] [TCP] Giving up the retry
+[167570] [TCP] Giving up the retry
+[167600] [TCP] Giving up the retry
+[167630] [TCP] Giving up the retry
+[167660] [TCP] Giving up the retry
+[167690] [TCP] Giving up the retry
+[167720] [TCP] Giving up the retry
+[167750] [TCP] Giving up the retry
+[167780] [TCP] Giving up the retry
+[167810] [TCP] Giving up the retry
+[167840] [TCP] Giving up the retry
+[167870] [TCP] Giving up the retry
+[167900] [TCP] Giving up the retry
+[167930] [TCP] Giving up the retry
+[167960] [TCP] Giving up the retry
+[167990] [TCP] Giving up the retry
+[168020] [TCP] Giving up the retry
+[168050] [TCP] Giving up the retry
+[168080] [TCP] Giving up the retry
+[168110] [TCP] Giving up the retry
+[168120] In state WaitForChargerShutdown. TcpRetries 10
+[168140] [TCP] Giving up the retry
+[168170] [TCP] Giving up the retry
+[168200] [TCP] Giving up the retry
+[168230] [TCP] Giving up the retry
+[168260] [TCP] Giving up the retry
+[168290] [TCP] Giving up the retry
+[168320] [CONNMGR] 165 0 0 0 0 27 222 --> 100
+[168320] [TCP] Giving up the retry
+[168350] [TCP] Giving up the retry
+[168380] [TCP] Giving up the retry
+[168410] [TCP] Giving up the retry
+[168440] [TCP] Giving up the retry
+[168470] [TCP] Giving up the retry
+[168500] [TCP] Giving up the retry
+[168530] [TCP] Giving up the retry
+[168560] [TCP] Giving up the retry
+[168590] [TCP] Giving up the retry
+[168620] [TCP] Giving up the retry
+[168650] [TCP] Giving up the retry
+[168680] [TCP] Giving up the retry
+[168710] [TCP] Giving up the retry
+[168740] [TCP] Giving up the retry
+[168770] [TCP] Giving up the retry
+[168800] [TCP] Giving up the retry
+[168830] [TCP] Giving up the retry
+[168860] [TCP] Giving up the retry
+[168890] [TCP] Giving up the retry
+[168920] [TCP] Giving up the retry
+[168950] [TCP] Giving up the retry
+[168980] [TCP] Giving up the retry
+[169010] [TCP] Giving up the retry
+[169040] [TCP] Giving up the retry
+[169070] [TCP] Giving up the retry
+[169100] [TCP] Giving up the retry
+[169120] In state WaitForChargerShutdown. TcpRetries 10
+[169130] [TCP] Giving up the retry
+[169130] Safe-shutdown-sequence: opening contactors
+[169130] In state WaitForContactorsOpen. TcpRetries 10
+[169160] [TCP] Giving up the retry
+[169190] [TCP] Giving up the retry
+[169220] [TCP] Giving up the retry
+[169250] [TCP] Giving up the retry
+[169280] [TCP] Giving up the retry
+[169310] [CONNMGR] 165 0 0 0 0 0 189 --> 100
+[169310] [TCP] Giving up the retry
+[169340] [TCP] Giving up the retry
+[169370] [TCP] Giving up the retry
+[169400] [TCP] Giving up the retry
+[169430] [TCP] Giving up the retry
+[169460] [TCP] Giving up the retry
+[169490] [TCP] Giving up the retry
+[169520] [TCP] Giving up the retry
+[169550] [TCP] Giving up the retry
+[169580] [TCP] Giving up the retry
+[169610] [TCP] Giving up the retry
+[169640] [TCP] Giving up the retry
+[169670] [TCP] Giving up the retry
+[169700] [TCP] Giving up the retry
+[169730] [TCP] Giving up the retry
+[169760] [TCP] Giving up the retry
+[169790] [TCP] Giving up the retry
+[169820] [TCP] Giving up the retry
+[169850] [TCP] Giving up the retry
+[169880] [TCP] Giving up the retry
+[169910] [TCP] Giving up the retry
+[169940] [TCP] Giving up the retry
+[169970] [TCP] Giving up the retry
+[170000] [TCP] Giving up the retry
+[170030] [TCP] Giving up the retry
+[170060] [TCP] Giving up the retry
+[170090] [TCP] Giving up the retry
+[170120] [TCP] Giving up the retry
+[170130] In state WaitForContactorsOpen. TcpRetries 10
+[170150] [TCP] Giving up the retry
+[170150] Safe-shutdown-sequence: unlocking the connector
+[170150] In state End. TcpRetries 10
+[170180] [TCP] Giving up the retry
+[170210] [TCP] Giving up the retry
+[170240] [TCP] Giving up the retry
+[170270] [TCP] Giving up the retry
+[170300] [CONNMGR] 165 0 0 0 0 0 156 --> 100
+[170300] [TCP] Giving up the retry
+[170330] [TCP] Giving up the retry
+[170360] [TCP] Giving up the retry
+[170390] [TCP] Giving up the retry
+[170420] [TCP] Giving up the retry
+[170450] [TCP] Giving up the retry
+[170480] [TCP] Giving up the retry
+[170510] [TCP] Giving up the retry
+[170540] [TCP] Giving up the retry
+[170570] [TCP] Giving up the retry
+[170600] [TCP] Giving up the retry
+[170630] [TCP] Giving up the retry
+[170660] [TCP] Giving up the retry
+[170690] [TCP] Giving up the retry
+[170720] [TCP] Giving up the retry
+[170750] [TCP] Giving up the retry
+[170780] [TCP] Giving up the retry
+[170810] [TCP] Giving up the retry
+[170840] [TCP] Giving up the retry
+[170870] [TCP] Giving up the retry
+[170900] [TCP] Giving up the retry
+[170930] [TCP] Giving up the retry
+[170960] [TCP] Giving up the retry
+[170990] [TCP] Giving up the retry
+[171020] [TCP] Giving up the retry
+[171050] [TCP] Giving up the retry
+[171080] [TCP] Giving up the retry
+[171110] [TCP] Giving up the retry
+[171140] [TCP] Giving up the retry
+[171150] In state End. TcpRetries 10
+[171170] [TCP] Giving up the retry
+[171200] [TCP] Giving up the retry
+[171230] [TCP] Giving up the retry
+[171260] [TCP] Giving up the retry
+[171290] [CONNMGR] 165 0 0 0 0 0 123 --> 100
+[171290] [TCP] Giving up the retry
+[171320] [TCP] Giving up the retry
+[171350] [TCP] Giving up the retry
+[171380] [TCP] Giving up the retry
+[171410] [TCP] Giving up the retry
+[171440] [TCP] Giving up the retry
+[171470] [TCP] Giving up the retry
+[171500] [TCP] Giving up the retry
+[171530] [TCP] Giving up the retry
+[171560] [TCP] Giving up the retry
+[171590] [TCP] Giving up the retry
+[171620] [TCP] Giving up the retry
+[171650] [TCP] Giving up the retry
+[171680] [TCP] Giving up the retry
+[171710] [TCP] Giving up the retry
+[171740] [TCP] Giving up the retry
+[171770] [TCP] Giving up the retry
+[171800] [TCP] Giving up the retry
+[171830] [TCP] Giving up the retry
+[171860] [TCP] Giving up the retry
+[171890] [TCP] Giving up the retry
+[171920] [TCP] Giving up the retry
+[171950] [TCP] Giving up the retry
+[171980] [TCP] Giving up the retry
+[172010] [TCP] Giving up the retry
+[172040] [TCP] Giving up the retry
+[172070] [TCP] Giving up the retry
+[172100] [TCP] Giving up the retry
+[172130] [TCP] Giving up the retry
+[172150] In state End. TcpRetries 10
+[172160] [TCP] Giving up the retry
+[172190] [TCP] Giving up the retry
+[172220] [TCP] Giving up the retry
+[172250] [TCP] Giving up the retry
+[172280] [CONNMGR] 165 0 0 0 0 0 90 --> 100
+[172280] [TCP] Giving up the retry
+[172310] [TCP] Giving up the retry
+[172340] [TCP] Giving up the retry
+[172370] [TCP] Giving up the retry
+[172400] [TCP] Giving up the retry
+[172430] [TCP] Giving up the retry
+[172460] [TCP] Giving up the retry
+[172490] [TCP] Giving up the retry
+[172520] [TCP] Giving up the retry
+[172550] [TCP] Giving up the retry
+[172580] [TCP] Giving up the retry
+[172610] [TCP] Giving up the retry
+[172640] [TCP] Giving up the retry
+[172670] [TCP] Giving up the retry
+[172700] [TCP] Giving up the retry
+[172730] [TCP] Giving up the retry
+[172760] [TCP] Giving up the retry
+[172790] [TCP] Giving up the retry
+[172820] [TCP] Giving up the retry
+[172850] [TCP] Giving up the retry
+[172880] [TCP] Giving up the retry
+[172910] [TCP] Giving up the retry
+[172940] [TCP] Giving up the retry
+[172970] [TCP] Giving up the retry
+[173000] [TCP] Giving up the retry
+[173030] [TCP] Giving up the retry
+[173060] [TCP] Giving up the retry
+[173090] [TCP] Giving up the retry
+[173120] [TCP] Giving up the retry
+[173150] In state End. TcpRetries 10
+[173150] [TCP] Giving up the retry
+[173180] [TCP] Giving up the retry
+[173210] [TCP] Giving up the retry
+[173240] [TCP] Giving up the retry
+[173270] [CONNMGR] 165 0 0 0 0 0 57 --> 100
+[173270] [TCP] Giving up the retry
+[173300] [TCP] Giving up the retry
+[173330] [TCP] Giving up the retry
+[173360] [TCP] Giving up the retry
+[173390] [TCP] Giving up the retry
+[173420] [TCP] Giving up the retry
+[173450] [TCP] Giving up the retry
+[173480] [TCP] Giving up the retry
+[173510] [TCP] Giving up the retry
+[173540] [TCP] Giving up the retry
+[173570] [TCP] Giving up the retry
+[173600] [TCP] Giving up the retry
+[173630] [TCP] Giving up the retry
+[173660] [TCP] Giving up the retry
+[173690] [TCP] Giving up the retry
+[173720] [TCP] Giving up the retry
+[173750] [TCP] Giving up the retry
+[173780] [TCP] Giving up the retry
+[173810] [TCP] Giving up the retry
+[173840] [TCP] Giving up the retry
+[173870] [TCP] Giving up the retry
+[173900] [TCP] Giving up the retry
+[173930] [TCP] Giving up the retry
+[173960] [TCP] Giving up the retry
+[173990] [TCP] Giving up the retry
+[174020] [TCP] Giving up the retry
+[174050] [TCP] Giving up the retry
+[174080] [TCP] Giving up the retry
+[174110] [TCP] Giving up the retry
+[174140] [TCP] Giving up the retry
+[174150] In state End. TcpRetries 10
+[174170] [TCP] Giving up the retry
+[174200] [TCP] Giving up the retry
+[174230] [TCP] Giving up the retry
+[174260] [CONNMGR] 165 0 0 0 0 0 24 --> 100
+[174260] [TCP] Giving up the retry
+[174290] [TCP] Giving up the retry
+[174320] [TCP] Giving up the retry
+[174350] [TCP] Giving up the retry
+[174380] [TCP] Giving up the retry
+[174410] [TCP] Giving up the retry
+[174440] [TCP] Giving up the retry
+[174470] [TCP] Giving up the retry
+[174500] [TCP] Giving up the retry
+[174530] [TCP] Giving up the retry
+[174560] [TCP] Giving up the retry
+[174590] [TCP] Giving up the retry
+[174620] [TCP] Giving up the retry
+[174650] [TCP] Giving up the retry
+[174680] [TCP] Giving up the retry
+[174710] [TCP] Giving up the retry
+[174740] [TCP] Giving up the retry
+[174770] [TCP] Giving up the retry
+[174800] [TCP] Giving up the retry
+[174830] [TCP] Giving up the retry
+[174860] [TCP] Giving up the retry
+[174890] [TCP] Giving up the retry
+[174920] [TCP] Giving up the retry
+[174950] [TCP] Giving up the retry
+[174980] [CONNMGR] ConnectionLevel changed from 100 to 5.
+[174980] [TCP] Giving up the retry
+[174980] In state Off. TcpRetries 10
+[175010] [PEVSLAC] received GET_SW.CNF
+For MAC 04:65:65:ff:ff:ff software version MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[175250] [CONNMGR] 165 0 0 0 0 0 0 --> 5
+[175490] [CONNMGR] ConnectionLevel changed from 5 to 10.
+[175490] [PEVSLAC] from 0 entering 2
+[175520] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[175520] [PEVSLAC] from 2 entering 4
+[175980] In state Off. TcpRetries 10
+[176240] [CONNMGR] 165 139 0 0 0 0 0 --> 10
+[176510] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[176510] [PEVSLAC] from 4 entering 0
+[176540] [PEVSLAC] from 0 entering 2
+[176570] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[176570] [PEVSLAC] from 2 entering 4
+[176980] In state Off. TcpRetries 10
+[177230] [CONNMGR] 165 106 0 0 0 0 0 --> 10
+[177560] [PEVSLAC] Timeout while waiting for SLAC_PARAM.CNF
+[177560] [PEVSLAC] from 4 entering 0
+[177590] [PEVSLAC] from 0 entering 2
+[177620] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[177620] [PEVSLAC] from 2 entering 4
