@@ -1,3 +1,4 @@
 # statistics for ../clara-logs\2024-01-19_clara_alpitronic_HYC300_7minutes_lightbulb_ok.claralog
 # statistics for ../clara-logs\2024-01-19_clara_chargepointexpress250_no_authorization.claralog
 # statistics for ../clara-logs\2024-01-19_clara_numbat_lightbulb_verydark.claralog
+# statistics for ../clara-logs\2024-01-23_clara_pyPLC_stop_with_button.claralog
