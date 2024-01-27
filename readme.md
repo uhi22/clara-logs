@@ -6,6 +6,9 @@ References:
 How the logs are created? The foccci/clara provides a debug log on the serial line with 921600 baud. Using a 3.3V-serial-to-USB converter and Putty on the notebook.
 Putty is configured to write a log file.
 
+How the "decoded" and "values" files are created? By running claralogConverter.py from https://github.com/uhi22/pyPLC. This reads the log file, decodes the EXI data and writes the two new files.
+
+
 ## 2024-01-19_clara_alpitronic_HYC300_7minutes_lightbulb_ok
 
 - Charger: Alpitronic hypercharger HYC300
