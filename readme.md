@@ -31,3 +31,13 @@ Putty is configured to write a log file.
 - Recorded by: uhi
 - Results:
     - Reaching the charging loop, but after good voltage during preCharge, the voltage ramps down at the beginning of the charging loop. Found later: Clara requests EVTargetCurrent=0A during the charging loop. This most likely drove the charger into current-limiting mode.
+
+## 2024-01-27_clara_SuCV3_preCharge_uMin229V
+
+- Charger: Tesla Supercharger V3
+- Test setup: Foccci/Clara with Lightbulb demo configuration. No bulb connected.
+- Recorded by: uhi
+- Results:
+    - PreCharge loop is reached
+    - Foccci does not end the precharge, because the Supercharger announced minimum voltage 229.99V, and we wanted 210V.
+
