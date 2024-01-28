@@ -1,5 +1,7 @@
 # Log files of ccs32clara
 
+![image](clara_logs.jpg)
+
 References:
 - https://github.com/uhi22/ccs32clara
 
