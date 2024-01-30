@@ -45,4 +45,11 @@ How the "decoded" and "values" files are created? By running claralogConverter.p
 - Results:
     - PreCharge loop is reached
     - Foccci does not end the precharge, because the Supercharger announced minimum voltage 229.99V, and we wanted 210V.
+    - Found afterwards: TCP connect needs multiple tries. Issue https://github.com/uhi22/ccs32clara/issues/10
 
+## 2024-01-30_clara_pyPLC_withEthLogBeforeChargeLoop
+
+- Testsetup: Foccci/Clara with pyPLC on the bench
+- Goal: verify that the logging of ethernet traffic before the charge loop works.
+- Recorded by: uhi
+- Result: works. Ethernet traffic is logged before the charging loop, and not logged during the charging loop.
