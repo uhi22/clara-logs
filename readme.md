@@ -60,3 +60,10 @@ How the "decoded" and "values" files are created? By running claralogConverter.p
 - Recorded by: johu
 - Result: During cable check, the Supercharger permanently reports "EVSEProcessing": "Ongoing". After 55s in CableCheck, clara gives up and enters the safeshutdownsequence.
 - Likely root cause: The supercharger seems to check the PP circuit and does not finish the chablecheck if the PP circuit does not match the expectations.
+
+## 2024-02-13_clara_tesla_timeout_in_cablecheck_multiple_times
+- Charger: Tesla Supercharger V3
+- Test setup: Foccci/Clara with Lightbulb demo configuration. No bulb connected.
+- Recorded by: uhi
+- Results:
+    - after 55s in CableCheck, clara gives up. Repeated multiple times on different stalls.
