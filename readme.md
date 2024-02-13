@@ -53,3 +53,10 @@ How the "decoded" and "values" files are created? By running claralogConverter.p
 - Goal: verify that the logging of ethernet traffic before the charge loop works.
 - Recorded by: uhi
 - Result: works. Ethernet traffic is logged before the charging loop, and not logged during the charging loop.
+
+## 2024-02-09_clara_tesla_timeout_in_cablecheck_due_to_wrong_PP
+
+- Testsetup: Foccci/Clara in johus Touran on Tesla Supercharger. PP pull-up to 12V with 3k3. Discussed here: https://openinverter.org/forum/viewtopic.php?p=67036#p67036
+- Recorded by: johu
+- Result: During cable check, the Supercharger permanently reports "EVSEProcessing": "Ongoing". After 55s in CableCheck, clara gives up and enters the safeshutdownsequence.
+- Likely root cause: The supercharger seems to check the PP circuit and does not finish the chablecheck if the PP circuit does not match the expectations.

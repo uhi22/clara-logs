@@ -1,0 +1,435 @@
+[22000] In state Off. TcpRetries 0
+[22780] [CONNMGR] 165 0 0 194 98 0 0 --> 50
+[23000] In state Off. TcpRetries 0
+[23770] [CONNMGR] 165 0 0 161 65 0 0 --> 50
+[24000] In state Off. TcpRetries 0
+[24760] [CONNMGR] 165 0 0 128 32 0 0 --> 50
+[25000] In state Off. TcpRetries 0
+[25570] [TCP] wrong port.
+[25720] [CONNMGR] ConnectionLevel changed from 50 to 15.
+[25720] [PEVSLAC] from 0 entering 2
+[25720] [SDP] Checkpoint200: Starting SDP.
+[25750] [CONNMGR] 165 0 0 95 0 0 0 --> 15
+[25750] [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[25750] [PEVSLAC] from 2 entering 4
+[25750] [SDP] initiating SDP request
+[25780] [SDP] Checkpoint203: Received SDP response
+[25780] [SDP] Now we know the chargers IP.
+[25780] [CONNMGR] ConnectionLevel changed from 15 to 50.
+[25780] [PEVSLAC] from 4 entering 0
+[25780] [TCP] Checkpoint301: connecting
+[25810] [TCP] sending first ACK
+[25810] [TCP] connected.
+[25810] [CONNMGR] ConnectionLevel changed from 50 to 80.
+[25810] Checkpoint400: Sending the initial SupportedApplicationProtocolReq
+[25810] TCP will transmit: 01fe8001000000228000dbab9371d3234b71d1b981899189d191818991d26b9b3a232b30020000040040
+[25810] In state NegotiateProtocol. TcpRetries 0
+[25840] [TCP] sending ACK
+[25840] Data received:  01fe80010000000480400040
+[25840] In state WaitForSupportedApplicationProtocolResponse
+[25840] supportedAppProtocolRes
+ResponseCode 0, SchemaID_isUsed 1, SchemaID 1
+[25840] Checkpoint403: Schema negotiated. And Checkpoint500: Will send SessionSetupReq
+[25840] TCP will transmit: 01fe800100000015809a02000000000000000011d01bfbb6fbbebff800
+[25840] In state SessionSetup. TcpRetries 0
+[25870] [TCP] sending ACK
+[25870] Data received:  01fe800100000013809a01155ee83211e0201b71109c7cc9440000
+[25870] [CONNMGR] ConnectionLevel changed from 80 to 100.
+[25870] In state WaitForSessionSetupResponse
+[25870] Checkpoint506: The Evse decided for SessionId 557ba0c8
+[25870] Will send ServiceDiscoveryReq
+[25870] TCP will transmit: 01fe800100000009809a01155ee8321198
+[25870] In state ServiceDiscovery. TcpRetries 0
+[25900] [TCP] sending ACK
+[25900] Data received:  01fe800100000010809a01155ee83211a0012168484120c4
+[25900] In state WaitForServiceDiscoveryResponse
+[25900] Will send ServicePaymentSelectionReq
+[25900] TCP will transmit: 01fe80010000000c809a01155ee83211b2001280
+[25900] In state PaymentSelection. TcpRetries 0
+[25930] [TCP] sending ACK
+[25930] Data received:  01fe80010000000a809a01155ee83211c000
+[25930] In state WaitForServicePaymentSelectionResponse
+[25930] Checkpoint530: Will send ContractAuthenticationReq
+[25930] TCP will transmit: 01fe800100000009809a01155ee83210b8
+[25930] In state ContractAuthentication. TcpRetries 0
+[25960] [TCP] sending ACK
+[25960] Data received:  01fe80010000000b809a01155ee83210c00000
+[26740] [CONNMGR] 165 0 0 62 132 138 303 --> 100
+[26830] In state WaitForContractAuthenticationResponse
+[26830] Checkpoint538 and 540: Auth is Finished. Will send ChargeParameterDiscoveryReq
+[26830] TCP will transmit: 01fe800100000027809a01155ee832107190400d80c0c3e8040a0e1d00e060a13406020484827008121209c0c81400
+[26830] In state ChargeParameterDiscovery. TcpRetries 0
+[26860] [TCP] sending ACK
+[26860] Data received:  01fe800100000034809a01155ee83210800001ec0020000405182800055000800001018500f80c1c0000814280900c0c000041435ecc044606000200
+[27730] [CONNMGR] 165 0 0 29 99 135 300 --> 100
+[27730] In state WaitForChargeParameterDiscoveryResponse
+[27730] Checkpoint550: ChargeParams are discovered.. Will change to state C.
+[27730] Checkpoint555: Locking the connector.
+[27730] In state ConnectorLock. TcpRetries 0
+[28720] [CONNMGR] 165 0 0 0 66 102 297 --> 100
+[28720] Checkpoint560: Connector Lock confirmed. Will send CableCheckReq.
+[28720] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[28720] In state CableCheck. TcpRetries 0
+[28750] [TCP] sending ACK
+[28750] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[29620] Will again send CableCheckReq
+[29620] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[29650] [TCP] sending ACK
+[29650] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[29710] [CONNMGR] 165 0 0 0 33 162 1020 --> 100
+[29720] In state CableCheck. TcpRetries 0
+[30520] Will again send CableCheckReq
+[30520] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[30550] [TCP] sending ACK
+[30550] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[30700] [CONNMGR] 165 0 0 0 0 159 1017 --> 100
+[30720] In state CableCheck. TcpRetries 0
+[31420] Will again send CableCheckReq
+[31420] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[31450] [TCP] sending ACK
+[31450] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[31690] [CONNMGR] 165 0 0 0 0 156 1014 --> 100
+[31720] In state CableCheck. TcpRetries 0
+[32320] Will again send CableCheckReq
+[32320] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[32350] [TCP] sending ACK
+[32350] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[32680] [CONNMGR] 165 0 0 0 0 153 1011 --> 100
+[32720] In state CableCheck. TcpRetries 0
+[33220] Will again send CableCheckReq
+[33220] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[33250] [TCP] sending ACK
+[33250] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[33670] [CONNMGR] 165 0 0 0 0 150 1008 --> 100
+[33720] In state CableCheck. TcpRetries 0
+[34120] Will again send CableCheckReq
+[34120] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[34150] [TCP] sending ACK
+[34150] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[34420] [TCP] wrong port.
+[34660] [CONNMGR] 165 0 0 0 0 147 1005 --> 100
+[34720] In state CableCheck. TcpRetries 0
+[35020] Will again send CableCheckReq
+[35020] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[35050] [TCP] sending ACK
+[35050] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[35650] [CONNMGR] 165 0 0 0 0 144 1002 --> 100
+[35720] In state CableCheck. TcpRetries 0
+[35920] Will again send CableCheckReq
+[35920] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[35950] [TCP] sending ACK
+[35950] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[36640] [CONNMGR] 165 0 0 0 0 141 999 --> 100
+[36720] In state CableCheck. TcpRetries 0
+[36820] Will again send CableCheckReq
+[36820] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[36850] [TCP] sending ACK
+[36850] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[37630] [CONNMGR] 165 0 0 0 0 138 996 --> 100
+[37720] In state CableCheck. TcpRetries 0
+[37720] Will again send CableCheckReq
+[37720] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[37750] [TCP] sending ACK
+[37750] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[38620] [CONNMGR] 165 0 0 0 0 135 993 --> 100
+[38620] Will again send CableCheckReq
+[38620] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[38650] [TCP] sending ACK
+[38650] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[38720] In state CableCheck. TcpRetries 0
+[39520] Will again send CableCheckReq
+[39520] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[39550] [TCP] sending ACK
+[39550] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[39610] [CONNMGR] 165 0 0 0 0 162 1020 --> 100
+[39720] In state CableCheck. TcpRetries 0
+[40420] Will again send CableCheckReq
+[40420] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[40450] [TCP] sending ACK
+[40450] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[40600] [CONNMGR] 165 0 0 0 0 159 1017 --> 100
+[40720] In state CableCheck. TcpRetries 0
+[40870] [TCP] wrong port.
+[41320] Will again send CableCheckReq
+[41320] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[41350] [TCP] sending ACK
+[41350] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[41590] [CONNMGR] 165 0 0 0 0 156 1014 --> 100
+[41720] In state CableCheck. TcpRetries 0
+[42220] Will again send CableCheckReq
+[42220] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[42250] [TCP] sending ACK
+[42250] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[42580] [CONNMGR] 165 0 0 0 0 153 1011 --> 100
+[42720] In state CableCheck. TcpRetries 0
+[43120] Will again send CableCheckReq
+[43120] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[43150] [TCP] sending ACK
+[43150] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[43570] [CONNMGR] 165 0 0 0 0 150 1008 --> 100
+[43720] In state CableCheck. TcpRetries 0
+[44020] Will again send CableCheckReq
+[44020] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[44050] [TCP] sending ACK
+[44050] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[44560] [CONNMGR] 165 0 0 0 0 147 1005 --> 100
+[44720] In state CableCheck. TcpRetries 0
+[44920] Will again send CableCheckReq
+[44920] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[44950] [TCP] sending ACK
+[44950] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[45550] [CONNMGR] 165 0 0 0 0 144 1002 --> 100
+[45720] In state CableCheck. TcpRetries 0
+[45820] Will again send CableCheckReq
+[45820] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[45850] [TCP] sending ACK
+[45850] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[46540] [CONNMGR] 165 0 0 0 0 141 999 --> 100
+[46720] In state CableCheck. TcpRetries 0
+[46720] Will again send CableCheckReq
+[46720] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[46750] [TCP] sending ACK
+[46750] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[47530] [CONNMGR] 165 0 0 0 0 138 996 --> 100
+[47620] Will again send CableCheckReq
+[47620] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[47650] [TCP] sending ACK
+[47650] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[47720] In state CableCheck. TcpRetries 0
+[48520] [CONNMGR] 165 0 0 0 0 135 993 --> 100
+[48520] Will again send CableCheckReq
+[48520] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[48550] [TCP] sending ACK
+[48550] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[48720] In state CableCheck. TcpRetries 0
+[49420] Will again send CableCheckReq
+[49420] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[49450] [TCP] sending ACK
+[49450] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[49510] [CONNMGR] 165 0 0 0 0 162 1020 --> 100
+[49720] In state CableCheck. TcpRetries 0
+[50320] Will again send CableCheckReq
+[50320] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[50350] [TCP] sending ACK
+[50350] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[50500] [CONNMGR] 165 0 0 0 0 159 1017 --> 100
+[50720] In state CableCheck. TcpRetries 0
+[51190] [TCP] wrong port.
+[51220] Will again send CableCheckReq
+[51220] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[51250] [TCP] sending ACK
+[51250] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[51490] [CONNMGR] 165 0 0 0 0 156 1014 --> 100
+[51720] In state CableCheck. TcpRetries 0
+[52120] Will again send CableCheckReq
+[52120] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[52150] [TCP] sending ACK
+[52150] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[52480] [CONNMGR] 165 0 0 0 0 153 1011 --> 100
+[52720] In state CableCheck. TcpRetries 0
+[53020] Will again send CableCheckReq
+[53020] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[53050] [TCP] sending ACK
+[53050] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[53470] [CONNMGR] 165 0 0 0 0 150 1008 --> 100
+[53720] In state CableCheck. TcpRetries 0
+[53920] Will again send CableCheckReq
+[53920] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[53950] [TCP] sending ACK
+[53950] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[54460] [CONNMGR] 165 0 0 0 0 147 1005 --> 100
+[54720] In state CableCheck. TcpRetries 0
+[54820] Will again send CableCheckReq
+[54820] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[54850] [TCP] sending ACK
+[54850] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[55450] [CONNMGR] 165 0 0 0 0 144 1002 --> 100
+[55720] In state CableCheck. TcpRetries 0
+[55720] Will again send CableCheckReq
+[55720] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[55750] [TCP] sending ACK
+[55750] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[56440] [CONNMGR] 165 0 0 0 0 141 999 --> 100
+[56620] Will again send CableCheckReq
+[56620] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[56650] [TCP] sending ACK
+[56650] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[56720] In state CableCheck. TcpRetries 0
+[57430] [CONNMGR] 165 0 0 0 0 138 996 --> 100
+[57520] Will again send CableCheckReq
+[57520] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[57550] [TCP] sending ACK
+[57550] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[57720] In state CableCheck. TcpRetries 0
+[58420] [CONNMGR] 165 0 0 0 0 135 993 --> 100
+[58420] Will again send CableCheckReq
+[58420] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[58450] [TCP] sending ACK
+[58450] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[58720] In state CableCheck. TcpRetries 0
+[59320] Will again send CableCheckReq
+[59320] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[59350] [TCP] sending ACK
+[59350] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[59410] [CONNMGR] 165 0 0 0 0 162 1020 --> 100
+[59720] In state CableCheck. TcpRetries 0
+[60220] Will again send CableCheckReq
+[60220] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[60250] [TCP] sending ACK
+[60250] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[60400] [CONNMGR] 165 0 0 0 0 159 1017 --> 100
+[60720] In state CableCheck. TcpRetries 0
+[61120] Will again send CableCheckReq
+[61120] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[61150] [TCP] sending ACK
+[61150] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[61390] [CONNMGR] 165 0 0 0 0 156 1014 --> 100
+[61720] In state CableCheck. TcpRetries 0
+[62020] Will again send CableCheckReq
+[62020] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[62050] [TCP] sending ACK
+[62050] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[62380] [CONNMGR] 165 0 0 0 0 153 1011 --> 100
+[62720] In state CableCheck. TcpRetries 0
+[62920] Will again send CableCheckReq
+[62920] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[62950] [TCP] sending ACK
+[62950] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[63370] [CONNMGR] 165 0 0 0 0 150 1008 --> 100
+[63720] In state CableCheck. TcpRetries 0
+[63820] Will again send CableCheckReq
+[63820] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[63850] [TCP] sending ACK
+[63850] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[64360] [CONNMGR] 165 0 0 0 0 147 1005 --> 100
+[64720] In state CableCheck. TcpRetries 0
+[64720] Will again send CableCheckReq
+[64720] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[64750] [TCP] sending ACK
+[64750] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[65350] [CONNMGR] 165 0 0 0 0 144 1002 --> 100
+[65620] Will again send CableCheckReq
+[65620] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[65650] [TCP] sending ACK
+[65650] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[65720] In state CableCheck. TcpRetries 0
+[66340] [CONNMGR] 165 0 0 0 0 141 999 --> 100
+[66520] Will again send CableCheckReq
+[66520] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[66550] [TCP] sending ACK
+[66550] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[66720] In state CableCheck. TcpRetries 0
+[67330] [CONNMGR] 165 0 0 0 0 138 996 --> 100
+[67420] Will again send CableCheckReq
+[67420] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[67450] [TCP] sending ACK
+[67450] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[67720] In state CableCheck. TcpRetries 0
+[68320] [CONNMGR] 165 0 0 0 0 135 993 --> 100
+[68320] Will again send CableCheckReq
+[68320] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[68350] [TCP] sending ACK
+[68350] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[68720] In state CableCheck. TcpRetries 0
+[69220] Will again send CableCheckReq
+[69220] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[69250] [TCP] sending ACK
+[69250] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[69310] [CONNMGR] 165 0 0 0 0 162 1020 --> 100
+[69720] In state CableCheck. TcpRetries 0
+[70120] Will again send CableCheckReq
+[70120] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[70150] [TCP] sending ACK
+[70150] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[70300] [CONNMGR] 165 0 0 0 0 159 1017 --> 100
+[70720] In state CableCheck. TcpRetries 0
+[71020] Will again send CableCheckReq
+[71020] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[71050] [TCP] sending ACK
+[71050] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[71230] [TCP] wrong port.
+[71290] [CONNMGR] 165 0 0 0 0 156 1014 --> 100
+[71720] In state CableCheck. TcpRetries 0
+[71920] Will again send CableCheckReq
+[71920] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[71950] [TCP] sending ACK
+[71950] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[72280] [CONNMGR] 165 0 0 0 0 153 1011 --> 100
+[72720] In state CableCheck. TcpRetries 0
+[72820] Will again send CableCheckReq
+[72820] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[72850] [TCP] sending ACK
+[72850] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[73270] [CONNMGR] 165 0 0 0 0 150 1008 --> 100
+[73720] In state CableCheck. TcpRetries 0
+[73720] Will again send CableCheckReq
+[73720] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[73750] [TCP] sending ACK
+[73750] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[74260] [CONNMGR] 165 0 0 0 0 147 1005 --> 100
+[74620] Will again send CableCheckReq
+[74620] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[74650] [TCP] sending ACK
+[74650] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[74720] In state CableCheck. TcpRetries 0
+[75250] [CONNMGR] 165 0 0 0 0 144 1002 --> 100
+[75520] Will again send CableCheckReq
+[75520] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[75550] [TCP] sending ACK
+[75550] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[75720] In state CableCheck. TcpRetries 0
+[76240] [CONNMGR] 165 0 0 0 0 141 999 --> 100
+[76420] Will again send CableCheckReq
+[76420] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[76450] [TCP] sending ACK
+[76450] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[76720] In state CableCheck. TcpRetries 0
+[77230] [CONNMGR] 165 0 0 0 0 138 996 --> 100
+[77320] Will again send CableCheckReq
+[77320] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[77350] [TCP] sending ACK
+[77350] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[77720] In state CableCheck. TcpRetries 0
+[78220] [CONNMGR] 165 0 0 0 0 135 993 --> 100
+[78220] Will again send CableCheckReq
+[78220] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[78250] [TCP] sending ACK
+[78250] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[78720] In state CableCheck. TcpRetries 0
+[79120] Will again send CableCheckReq
+[79120] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[79150] [TCP] sending ACK
+[79150] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[79210] [CONNMGR] 165 0 0 0 0 162 1020 --> 100
+[79720] In state CableCheck. TcpRetries 0
+[80020] Will again send CableCheckReq
+[80020] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[80050] [TCP] sending ACK
+[80050] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[80200] [CONNMGR] 165 0 0 0 0 159 1017 --> 100
+[80720] In state CableCheck. TcpRetries 0
+[80920] Will again send CableCheckReq
+[80920] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[80950] [TCP] sending ACK
+[80950] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[81190] [CONNMGR] 165 0 0 0 0 156 1014 --> 100
+[81720] In state CableCheck. TcpRetries 0
+[81820] Will again send CableCheckReq
+[81820] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[81850] [TCP] sending ACK
+[81850] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[82180] [CONNMGR] 165 0 0 0 0 153 1011 --> 100
+[82480] [TCP] wrong port.
+[82720] In state CableCheck. TcpRetries 0
+[82720] Will again send CableCheckReq
+[82720] TCP will transmit: 01fe80010000000c809a01155ee8321011400d80
+[82750] [TCP] sending ACK
+[82750] Data received:  01fe80010000000f809a01155ee8321020004080000400
+[83170] [CONNMGR] 165 0 0 0 0 150 1008 --> 100
+[83620] CableCheck lasted too long. Giving up.
+[83620] In state Timeout. TcpRetries 0
+[83650] Safe-shutdown-sequence: setting state B
+[83650] In state WaitForChargerShutdown. TcpRetries 0
+[84160] [CONNMGR] 165 0 0 0 0 117 312 --> 100
+[84650] In state WaitForChargerShutdown. TcpRetries 0
+
