@@ -1,2 +1,5 @@
 # statistics for ../clara-logs\2024-02-09_clara_tesla_timeout_in_cablecheck_due_to_wrong_PP.claralog
 # statistics for ../clara-logs\2024-02-13_clara_tesla_timeout_in_cablecheck.claralog
+# statistics for ../clara-logs\2024-02-14_ABB_HPC.claralog
+# statistics for ../clara-logs\2024-02-14_SuC_endlessCablecheck.claralog
+# statistics for ../clara-logs\2024-02-14_SuC_without_authorization.claralog
