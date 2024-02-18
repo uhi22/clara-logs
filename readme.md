@@ -67,3 +67,39 @@ How the "decoded" and "values" files are created? By running claralogConverter.p
 - Recorded by: uhi
 - Results:
     - after 55s in CableCheck, clara gives up. Repeated multiple times on different stalls.
+
+## 2024-02-18_clara_alpi_lightbulb_ok
+- Charger: alpitronics HYC300
+- Test setup: Foccci/Clara with Lightbulb demo configuration.
+- Clara software version: with the MAC-from-STM feature
+- Recorded by: uhi
+- Results: light bulb demo works
+
+## 2024-02-18_clara_numbat_lightbulb_ok
+- Charger: Numbat
+- Test setup: Foccci/Clara with Lightbulb demo configuration.
+- Clara software version: with the MAC-from-STM feature
+- Recorded by: uhi
+- Results: light bulb demo works. Short voltage drop at the beginning, but stable 230V afterwards.
+
+## 2024-02-18_clara_TeslaV3_lightbulb_ok_at_second_try
+- Charger: Tesla Supercharger V3
+- Test setup: Foccci/Clara with Lightbulb demo configuration.
+- Clara software version: with the MAC-from-STM feature
+- Recorded by: uhi
+- Results: first try does not succeed. New session with re-power foccci, new start in the app and reconnecting to the charger works.
+
+## 2024-02-18_clara_ABBtriple_lightbulb_ok
+- Charger: ABB Triple Charger
+- Test setup: Foccci/Clara with Lightbulb demo configuration.
+- Clara software version: with the MAC-from-STM feature
+- Recorded by: uhi
+- Results: light bulb demo works
+
+## 2024-02-19_clara_ionityTritium_lightbulb_overshoot
+- Charger: Ionity Tritium
+- Test setup: Foccci/Clara with Lightbulb demo configuration.
+- Clara software version: with the MAC-from-STM feature
+- Recorded by: uhi
+- Results: charging loop is reached. The charger is not able to keep the demanded voltage (230V) and ramps up to 420V. Quite bright lamp, but it survived. After ~10s, the charger sees that something went wrong and says EVSEStatusCode=6, and the voltage goes to zero.
+
