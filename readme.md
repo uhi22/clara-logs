@@ -103,3 +103,9 @@ How the "decoded" and "values" files are created? By running claralogConverter.p
 - Recorded by: uhi
 - Results: charging loop is reached. The charger is not able to keep the demanded voltage (230V) and ramps up to 420V. Quite bright lamp, but it survived. After ~10s, the charger sees that something went wrong and says EVSEStatusCode=6, and the voltage goes to zero.
 
+## 2024-02-18_clara_efacecQC45_badRegulation
+- Charger: Efacec QC45 triple charger 50kW
+- Test setup: Foccci/Clara with Lightbulb demo configuration.
+- Clara software version: with the MAC-from-STM feature
+- Recorded by: uhi
+- Results: charging loop is reached. The charger is not able to keep the demanded voltage (230V) and ramps up to 241V. The charger sees that something went wrong and says EVSEStatusCode=6, and the voltage goes to zero.
