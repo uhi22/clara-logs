@@ -64,7 +64,7 @@ def readClaraLog(inputFileName):
                         packet.show() 
                         
 
-strClaraLogFileName = "2024-02-18_clara_TeslaV3_lightbulb_ok_at_second_try.claralog"
+strClaraLogFileName = "2024-04-11_clara_PhiPhong_doug.claralog"
 # parse the log file and collect the network packets
 readClaraLog(strClaraLogFileName)
 # write the collected packets into pcap file

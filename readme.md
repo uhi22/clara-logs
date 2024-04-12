@@ -109,3 +109,10 @@ How the "decoded" and "values" files are created? By running claralogConverter.p
 - Clara software version: with the MAC-from-STM feature
 - Recorded by: uhi
 - Results: charging loop is reached. The charger is not able to keep the demanded voltage (230V) and ramps up to 241V. The charger sees that something went wrong and says EVSEStatusCode=6, and the voltage goes to zero.
+
+## 2024-04-11_clara_PhiPhong_doug
+- Charger: PhiPhong
+- Test setup: Foccci/Clara
+- Clara software version: ?
+- Recorded by: Doug
+- Results: After 3 CableCheck loops, the charger does not respond anymore. No error in the last response. The last EXI message is a CableCheckReq from Clara, and the charger correctly sends a TCP ACK for this. Afterwards the charger should send a CableCheckResponse, but it does not. The charger does not close the TCP connection. It just does not answer anymore.
