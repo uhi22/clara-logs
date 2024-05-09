@@ -13,6 +13,7 @@
 # pip install scapy
 
 from scapy.all import raw, wrpcap, Ether
+import os
 
 # The list of packets:
 allpackets = []
@@ -34,9 +35,10 @@ def prettyHexMessage(mybytearray, description=""):
 
 
 def readClaraLog(inputFileName):
-    with open(inputFileName) as file:
+    with open(inputFileName, encoding="Latin-1") as file:
         for line in file:
-            #print(line.strip())
+            print(line.strip())
+            error=0
             framedata = []
             if (line.find("ETH rx")>0) or (line.find("ETH will transmit")>0):
                 #print(line.strip())
@@ -48,25 +50,52 @@ def readClaraLog(inputFileName):
                     if (len(timeElementList)==3):
                         #print("ok, 3 elements")
                         strTime = timeElementList[1]
-                        t = float(strTime)/1000 # The time in the log is in milliseconds. We want seconds in the pcap.
+                        try:
+                            t = float(strTime)/1000 # The time in the log is in milliseconds. We want seconds in the pcap.
+                        except:
+                            print("invalid time stamp " + strTime)
+                            error += 1
                         strEthData = elementList[1].strip()
                         #print(strTime)
                         #print(strEthData)
                         for i in range(int(len(strEthData)/2)):
                             strByte = "0x" + strEthData[2*i:2*i+2]
                             #print(strByte)
-                            databyte = int(strByte, 0) # convert string like "0xAA" into number
+                            try:
+                                databyte = int(strByte, 0) # convert string like "0xAA" into number
+                            except:
+                                databyte = 0
+                                print("invalid formatted hex number" + strByte)
+                                error += 1
                             framedata.append(databyte)
-                        print("frame " + prettyHexMessage(framedata))
-                        packet = Ether(raw(framedata)) # create a scapy packet from the byte list
-                        packet.time = t # set the time stamp of the scapy packet
-                        allpackets.append(packet) # add to the list of packets
-                        packet.show() 
+                        if (error == 0):
+                            print(strTime + " frame " + prettyHexMessage(framedata))
+                            packet = Ether(raw(framedata)) # create a scapy packet from the byte list
+                            packet.time = t # set the time stamp of the scapy packet
+                            allpackets.append(packet) # add to the list of packets
+                            packet.show()
+                        else:
+                            print("Ignoring this packet due to formatting error")
                         
 
-strClaraLogFileName = "2024-04-11_clara_PhiPhong_doug.claralog"
-# parse the log file and collect the network packets
-readClaraLog(strClaraLogFileName)
-# write the collected packets into pcap file
-wrpcap(strClaraLogFileName + ".pcap", allpackets)
-print("Done. " + strClaraLogFileName + ".pcap written.")
+
+# e.g. strClaraLogFileName = "2024-04-11_clara_PhiPhong_doug.claralog"
+directory = "."
+# iterate over files in the directory
+for filename in os.listdir(directory):
+    strClaraLogFileName = os.path.join(directory, filename)
+    # checking if it is a file
+    if os.path.isfile(strClaraLogFileName):
+        print(strClaraLogFileName)
+        # check the file extension:
+        if (strClaraLogFileName[-9:]==".claralog"):
+            print("Will decode " + strClaraLogFileName)
+            if (os.path.isfile(strClaraLogFileName + ".pcap")):
+                print("output file " + strClaraLogFileName + ".pcap already exists. Nothing to do.")
+            else:
+                allpackets = [] # empty packet list at the beginning
+                # parse the log file and collect the network packets
+                readClaraLog(strClaraLogFileName)
+                # write the collected packets into pcap file
+                wrpcap(strClaraLogFileName + ".pcap", allpackets)
+                print("Done. " + strClaraLogFileName + ".pcap written.")
