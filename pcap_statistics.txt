@@ -14,3 +14,4 @@
 # statistics for ../clara-logs\2024-05-09_clara_QingdaoPenodato_serh270_precharge.claralog
 # statistics for ../clara-logs\2024-05-09_clara_QingdaoPenodato_serh270_precharge.claralog
 # statistics for ../clara-logs\2024-05-09_clara_QingdaoPenodato_serh270_precharge.claralog
+# statistics for ../clara-logs\2024-05-12_clara_QingdaoPenodato_serh270_fault_cableCheck.claralog
