@@ -1,1 +1,3 @@
 # statistics for ../clara-logs\2024-08-08_clara_kempower_EvMacGyver-abc-350v.claralog
+# statistics for ../clara-logs\2024-10-14_clara_parallelcharging_hiro_LOG-2nd_charger.claralog
+# statistics for ../clara-logs\2024-10-23_clara_Fail_and_Success_Double_charging.claralog
